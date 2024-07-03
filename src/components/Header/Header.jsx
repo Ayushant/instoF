@@ -1,26 +1,24 @@
 import React, { Component } from 'react'
-
-// change
 // import { Input } from "@material-tailwind/react"
 
 export class Header extends Component {
   render() {
     return (
-      <header>
+      <header className='bg-black sm:bg-white '>
        
        
  <div className=' h-[460px] rounded-tl-[500px] rounded-tr-[500px] bg-amber-200 sm:bg-amber-200 md:bg-amber-200'>
 
     <div className='pb-8  '>
     <h1 className='text-orange-500 pt-24 text-4xl text-center font-bold sm:text-8xl' >DON'T MISS OUT</h1>
-    <p className='text-center text-xl mt-5 text-dark'>Sign up for our newsletter about trending menus and new restaurants</p>
+    <p className='text-center text- mt-5 text-dark sm:text-xl'>Sign up for our newsletter about trending menus and new restaurants</p>
     </div>
 
 
-    <div className=' xl:  flex justify-center gap-8 xl:mt-3 sm:gap-6'>
+    <div className=' xl:  flex justify-center gap-6 xl:mt-3 sm:gap-4'>
       <form action="">
         <label class='block'>
-          <input class='bg-black rounded-full text-white p-2 xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:p-2 xl:bg-black sm:w-[10vb] sm:ml-20'  placeholder='Enter email' />
+          <input class='bg-black rounded-full text-white p-2  xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:p-2 xl:bg-black sm:w-[10vb] sm:ml-20 sm:px-10'  placeholder='Enter email' />
         </label>
       </form>
 
