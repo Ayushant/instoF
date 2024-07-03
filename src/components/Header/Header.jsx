@@ -18,12 +18,12 @@ export class Header extends Component {
     <div className='xl:   flex justify-center gap-8 xl:mt-3'>
       <form action="">
         <label class='block'>
-          <input class='bg-black rounded-full text-white p-2 ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:p-2 xl:bg-black xl:'  placeholder='Enter email' />
+          <input class='bg-black rounded-full text-white p-2 ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:p-2 xl:bg-black sm:w-[15vb]'  placeholder='Enter email' />
         </label>
       </form>
 
       <div>
-        <button class="bg-orange-600 text-white p-2 w-[22vb] rounded-full xl:mt-5">
+        <button class="bg-orange-600 text-white p-2 w-[22vb] rounded-full xl:mt-5 ">
          Sign up
         </button>
       </div>
