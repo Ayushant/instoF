@@ -20,7 +20,7 @@ export class Header extends Component {
     <form className='  '>
   <label class="block">
     
-    <input class="w-[30vb] mt-2 mx-auto mr- rounded-full border-slate-200 p-3 px-6 bg-black text-white placeholder-white sm:w-[60vb] sm:mt-10 sm:p-2 sm:px-5 sm:mx-auto" placeholder='Enter Email'/>
+    <input class="w-[autovb] mt-2 mx-auto mr- rounded-full border-slate-200 p-3 px-6 bg-black text-white placeholder-white sm:w-[autovb] sm:mt-10 sm:p-2 sm:px-5 sm:mx-auto" placeholder='Enter Email'/>
     
     <p class="mt-2 opacity-10 contrast-more:opacity-100 text-white text-sm">
      
@@ -30,7 +30,7 @@ export class Header extends Component {
   
 
     <div className=' '>
-    <button class="bg-orange-500 mt-1 w-40 hover:bg-orange-500 text-white font-semibold py-5 px-4  ml-2 rounded-full hover:bg-orange-600
+    <button class="bg-orange-500 mt-1 w-auto hover:bg-orange-500 text-white font-semibold py-5 px-4  ml-2 rounded-full hover:bg-orange-600
         sm:mt-10 sm:py-2 sm:w-36 ">
   Sign Up
 </button>
