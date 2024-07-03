@@ -4,18 +4,18 @@ import React, { Component } from 'react'
 export class Header extends Component {
   render() {
     return (
-      <header className='bg-black sm:bg-white '>
+      <header className='bg-black sm:bg-white   '>
        
        
- <div className=' h-[460px] rounded-tl-[500px] rounded-tr-[500px] bg-amber-200 sm:bg-amber-200 md:bg-amber-200'>
+ <div className='sm:h-[200px] xl:h-[460px]  rounded-tl-[500px] rounded-tr-[500px] bg-amber-200 sm:bg-amber-200 md:bg-amber-200'>
 
-    <div className='pb-8  '>
+    <div className='pb-8   '>
     <h1 className='text-orange-500 pt-24 text-4xl text-center font-bold sm:text-8xl' >DON'T MISS OUT</h1>
     <p className='text-center text- mt-5 text-dark sm:text-xl'>Sign up for our newsletter about trending menus and new restaurants</p>
     </div>
 
 
-    <div className=' xl:  flex justify-center gap-6 xl:mt-3 sm:gap-4'>
+    <div className=' xl:  flex justify-center  gap-6 xl:mt-3 sm:gap-4 sm:mb-'>
       <form action="">
         <label class='block'>
           <input class='bg-black rounded-full text-white p-2  xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:p-2 xl:bg-black sm:w-[10vb] sm:ml-20 sm:px-10'  placeholder='Enter email' />
@@ -23,7 +23,7 @@ export class Header extends Component {
       </form>
 
       <div>
-        <button class="bg-orange-600 text-white p-2 w-[20vb] xl:w-[22vb] rounded-full xl:mt-5 sm:w-[10]">
+        <button class="bg-orange-600  text-white p-2 w-[20vb] xl:w-[22vb] rounded-full xl:mt-5 sm:w-[10] ">
          Sign up
         </button>
       </div>
