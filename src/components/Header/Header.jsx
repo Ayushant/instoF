@@ -20,7 +20,7 @@ export class Header extends Component {
     <form className='  '>
   <label class="block">
     
-    <input class="w-[35vb] mt-2  mr-5 rounded-full border-slate-200 p-4 px-7 bg-black text-white placeholder-white sm:w-[60vb] sm:mt-10 sm:p-2 sm:px-5 sm:mr-0" placeholder='Enter Email'/>
+    <input class="w-[35vb] mt-2 mx-auto mr- rounded-full border-slate-200 p-4 px-7 bg-black text-white placeholder-white sm:w-[60vb] sm:mt-10 sm:p-2 sm:px-5 sm:mx-auto" placeholder='Enter Email'/>
     
     <p class="mt-2 opacity-10 contrast-more:opacity-100 text-white text-sm">
      
