@@ -45,7 +45,7 @@ export class Footer extends Component {
         </div>
       
          {/* <div className=''> */}
-        <h1 className='xl:hidden sm:  font-extrabold   text-5xl  mx-auto text-orange-600 [text-shadow:0__5px_0_rgb(0_0_0_/_40%)]'>Insto<span className='text-black'>QR</span> </h1>
+        <h1 className='xl:hidden sm:  font-extrabold   text-5xl mt-8 -mb-14  mx-auto text-orange-600 [text-shadow:0__5px_0_rgb(0_0_0_/_40%)]'>Insto<span className='text-black'>QR</span> </h1>
         {/* <h1 className='bg-white '>INSTO<span>QR</span></h1> */}
         {/* </div> */}
  
@@ -67,7 +67,7 @@ export class Footer extends Component {
 
  </div>
  
-      <div className='px-2  ml-13 -mt-20 sm:mt-20  grid-cols-4 grid-cols-4 sm:grid-cols-4'>
+      <div className='hidden sm:block px-2  ml-13 -mt-20 sm:mt-20  grid-cols-4 grid-cols-4 sm:grid-cols-4  '>
  
          <h2 className='font-bold  text-xl mt-4  text-[#F97315]'>Customer Support</h2>
         
@@ -85,7 +85,7 @@ export class Footer extends Component {
          </div>
       </div>
  
-      <div className='px-2 mt-20'>
+      <div className='hidden sm:block px-2 mt-20 '>
  
          <h2 className='font-bold text-xl mt-4 text-[#F97315]'>Quick Links</h2>
         
@@ -111,7 +111,7 @@ export class Footer extends Component {
      
  
  
-      <div className='px-2 mt-20'>
+      <div className='hidden sm:block px-2 mt-20'>
  
          <h2 className='font-bold text-xl mt-4 text-[#F97315]'>Socials</h2>
         
@@ -125,6 +125,61 @@ export class Footer extends Component {
              <p className='mt-2'></p>
              <p className='mt-2'></p>
          </div>
+      </div>
+
+
+
+      <div className='block sm:hidden flex gap-5'>
+         <div className=''> <h2 className='text-orange-600'>Customer support</h2>
+
+
+         <div className='mt-5'> 
+             <p className='mt-2 font-medium cursor-pointer'>Browse Restaurants</p>
+             <p className='mt-2 font-medium cursor-pointer'>View Orders</p>
+             <p className='mt-2 font-medium cursor-pointer'>Register Your Hotel</p>
+             <p className='mt-2 font-medium cursor-pointer'>Restaurant Login</p>
+             <p className='mt-2 font-medium cursor-pointer'>User Login</p>
+             <p className='mt-2 font-medium cursor-pointer'>About Us</p>
+             <p className='mt-2 font-medium cursor-pointer'>Careers</p>
+             <p className='mt-2 font-medium cursor-pointer'>Blog</p>
+             {/* <p className='text-amber-300 hidden sm:block'> hi</p>
+             <p className='text-amber-300 hidden sm:block'> hi</p>
+             <p className='text-amber-300 hidden sm:block'> hi</p> */}
+         </div>
+
+         
+            
+      
+            
+         </div>
+
+         <div className='ml-5'>
+
+            <h2 className='text-orange-600 '> Quick Links</h2>
+
+                    
+         <div className='mt-5'>
+             <p className='mt-2 font-medium cursor-pointer'>Contact Us</p>
+             <p className='mt-2 font-medium cursor-pointer'>FAQ's</p>
+             <p className='mt-2 font-medium cursor-pointer'>Help Center</p>
+             <p className='mt-2 font-medium cursor-pointer'>Terms & Conditions</p>
+             <p className='mt-2 font-medium cursor-pointer'>Privacy Policy</p>
+
+         </div>
+
+         <div className='mt-7'> 
+             <h2 className='text-orange-600'> Socials</h2>
+
+             
+         <div className='mt-2 ml-4'>
+             <img className='h-6 w-6 cursor-pointer' src={image} alt=''/>
+             <p className='mt-2'></p>
+             <p className='mt-2'></p>
+             <p className='mt-2'></p>
+         </div>
+         </div>
+         </div>
+         
       </div>
   
        
