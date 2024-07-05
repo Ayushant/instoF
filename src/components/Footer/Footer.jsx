@@ -142,9 +142,9 @@ export class Footer extends Component {
              <p className='mt-2 font-medium cursor-pointer'>About Us</p>
              <p className='mt-2 font-medium cursor-pointer'>Careers</p>
              <p className='mt-2 font-medium cursor-pointer'>Blog</p>
-             {/* <p className='text-amber-300 hidden sm:block'> hi</p>
              <p className='text-amber-300 hidden sm:block'> hi</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p> */}
+             <p className='text-amber-300 hidden sm:block'> hi</p>
+             <p className='text-amber-300 hidden sm:block'> hi</p>
          </div>
 
          
