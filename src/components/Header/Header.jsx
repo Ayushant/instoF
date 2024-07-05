@@ -15,10 +15,10 @@ export class Header extends Component {
     </div>
 
 
-    <div className='  flex justify-center   gap-4 xl:mt-3 sm:gap-9  '>
+    <div className='   flex justify-center  gap-4 xl:mt-3 sm:gap-9   '>
       <form action="">
-        <label class='block'>
-          <input class='bg-black rounded-full text-white p-1 sm:p-2  xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:bg-black '  placeholder='Enter email' />
+        <label class='block  '>
+          <input class=' bg-black rounded-full text-white p-1 sm:p-2  xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:bg-black sm:w-[10vb]'  placeholder='Enter email' />
         </label>
       </form>
 
