@@ -45,7 +45,7 @@ export class Footer extends Component {
         </div>
       
          {/* <div className=''> */}
-        <h1 className='xl:hidden sm:  font-bold   text-5xl  mx-auto text-orange-600 [text-shadow:0__5px_0_rgb(0_0_0_/_40%)]'>Insto<span className='text-black'>QR</span> </h1>
+        <h1 className='xl:hidden sm:  font-extrabold   text-5xl  mx-auto text-orange-600 [text-shadow:0__5px_0_rgb(0_0_0_/_40%)]'>Insto<span className='text-black'>QR</span> </h1>
         {/* <h1 className='bg-white '>INSTO<span>QR</span></h1> */}
         {/* </div> */}
  
