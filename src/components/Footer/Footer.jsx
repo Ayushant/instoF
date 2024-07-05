@@ -102,9 +102,9 @@ export class Footer extends Component {
              <p className='mt-2 font-medium cursor-pointer'>About Us</p>
              <p className='mt-2 font-medium cursor-pointer'>Careers</p>
              <p className='mt-2 font-medium cursor-pointer'>Blog</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
+             <p className='text-[#FCD34D] hidden sm:block'> hi</p>
+             <p className='text-[#FCD34D] hidden sm:block'> hi</p>
+             <p className='text-[#FCD34D] hidden sm:block'> hi</p>
          </div>
       </div>
  
@@ -129,11 +129,11 @@ export class Footer extends Component {
 
 
 
-      <div className='block sm:hidden flex gap-5'>
+      <div className='block sm:hidden flex gap-5 '>
          <div className=''> <h2 className='text-orange-600'>Customer support</h2>
 
 
-         <div className='mt-5'> 
+         <div className='mt-5 '> 
              <p className='mt-2 font-medium cursor-pointer'>Browse Restaurants</p>
              <p className='mt-2 font-medium cursor-pointer'>View Orders</p>
              <p className='mt-2 font-medium cursor-pointer'>Register Your Hotel</p>
@@ -142,9 +142,10 @@ export class Footer extends Component {
              <p className='mt-2 font-medium cursor-pointer'>About Us</p>
              <p className='mt-2 font-medium cursor-pointer'>Careers</p>
              <p className='mt-2 font-medium cursor-pointer'>Blog</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
-             <p className='text-amber-300 hidden sm:block'> hi</p>
+             <p className='text-[#FDE68A] '> hi</p>
+             <p className='text-[#FDE68A]'> hi</p>
+             <p className='text-[#FDE68A]'> hi</p>
+             
          </div>
 
          
