@@ -15,20 +15,48 @@ export class Header extends Component {
     </div>
 
 
-    <div className='   flex justify-center  gap-4 xl:mt-3 sm:gap-9   '>
+    <div className='block sm:hidden flex gap-4 justify-center'>
+      <input className='bg-black text-xs rounded-full p-2 w-[25vb] 'placeholder="Enter email"/>
+      <div>
+        <button class="bg-orange-600 text-xs text-white p-2 w-auto rounded-full   ">
+             Sign up
+        </button>
+      </div>
+    </div>
+     
+     <div className='hidden sm:block  mt-5  flex justify-center ml-[450px]'> 
+    <div className='           '>
+      
+        
+          <input class=' bg-black rounded-full text-white p-2   w-[45vb]   '  placeholder='Enter email' />
+        
+      
+
+      
+        <button class="bg-orange-600  text-white p-2   w-[20vb]  rounded-full  ml-10   ">
+         Sign up
+        </button>
+      </div>
+      </div>
+    
+    
+    
+
+{/* 
+    <div className='hidden sm:block   flex justify-center  gap-4 xl:mt-3 sm:gap-9   '>
       <form action="">
         <label class='block  '>
           <input class=' bg-black rounded-full text-white p-1 sm:p-2  xl:ml-2 w-[29vb] xl:w-[60vb] xl:mt-5 xl:bg-black sm:w-[10vb]'  placeholder='Enter email' />
         </label>
       </form>
 
-      <div>
+      
         <button class="bg-orange-600  text-white p-1  sm:p-2  w-[20vb] xl:w-[22vb] rounded-full xl:mt-5 sm:w-[10]   ">
          Sign up
         </button>
-      </div>
+      
     </div>
-    
+     */}
 
    {/* <div   className='hidden sm:block   flex justify-center  mt-3  '> 
     <form className='  '>
